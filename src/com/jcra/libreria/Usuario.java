@@ -1,6 +1,7 @@
 package com.jcra.libreria;
 
-import com.jcra.nomina.Empresa;
+import com.jcra.libreria.Profesor;
+import com.jcra.libreria.Estudiante;
 
 public class Usuario{
 	

@@ -7,6 +7,8 @@ public class Estudiante extends Usuario{
 	private String carrera;
 	private String semestre;
 	private double creditos;
+	String estudiante;
+	String pago;
 	
 	//constructor de Estudiante
 		public Estudiante(String usuario, String nombre, double edad, String cumpleaños, double altura, String carrera, String semestre, double creditos) {
@@ -16,6 +18,12 @@ public class Estudiante extends Usuario{
 			this.semestre = semestre;
 			this.creditos = creditos;
 		}
-	
-	
+		
+		public String prestamo(String estudiante){
+			return estudiante;
+		}
+		
+		public String pago(String pago){
+			return pago;
+		}
 }
